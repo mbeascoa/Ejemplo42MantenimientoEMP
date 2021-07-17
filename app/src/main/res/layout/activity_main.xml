@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCrearBd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="crearBd"
+        android:text="CREAR BASE DE DATOS" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnConsEmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consultaEmp"
+        android:text="CONSULTAR EMPLEADOS" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAltaEmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="altaEmp"
+        android:text="ALTA EMPLEADOS" />
+</LinearLayout>
